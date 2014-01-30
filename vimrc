@@ -24,6 +24,8 @@ Bundle 'L9'
 Bundle 'FuzzyFinder'
 Bundle 'Valloric/vim-valloric-colorscheme'
 Bundle 'Valloric/YouCompleteMe'
+Bundle 'xolox/vim-misc'
+Bundle 'xolox/vim-notes'
 
 filetype plugin indent on     " required!
 "
@@ -88,6 +90,7 @@ set cindent             " smart indenting for c-like code
 set cino=b1,g0,N-s,t0,(0,W4  " see :h cinoptions-values
 set smarttab            " smart tab handling for indenting
 set bs=indent,eol,start " Allow backspacing over everything in insert mode
+set foldmethod=syntax
 
 " misc settings
 set fileformat=unix     " file mode is unix
